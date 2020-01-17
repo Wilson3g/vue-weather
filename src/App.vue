@@ -50,7 +50,7 @@ export default {
       }
     },
     setResults(results){
-      this.weather = results;
+      this.weather = results
     },
     dataBuilder() {
       let d = new Date();
