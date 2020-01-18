@@ -1,13 +1,17 @@
 {
-  "name": "vue-weather",
-  "version": "0.1.0",
+  "name": "vue-weather-will",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "postinstall": "npm run build",
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js",
     "start": "node server.js"
+  },
+  "DevDependencies": {
+    "core-js": "^3.4.4",
+    "vue": "^2.6.10"
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
@@ -16,9 +20,8 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10",
-    "core-js": "^3.4.4",
-    "vue": "^2.6.10"
+    "express": "^4.17.1",
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
